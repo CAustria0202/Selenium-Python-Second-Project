@@ -1,6 +1,6 @@
 # Selenium-Python-Second-Project
 
-This repository provides the foundational setup for a UI testing project, built using Python, Selenium WebDriver, and the Page Object Model (POM) design pattern.
+This repository provides the foundational setup for a UI testing project, built using Python, Selenium WebDriver, Pytest, and the Page Object Model (POM) design pattern.
 
 Using https://trytestingthis.netlify.app/ for testing the functionalities of the website are displayed on this project.
 
