@@ -1,5 +1,5 @@
 # Selenium-Python-Second-Project
-#Selenium Python Automation for Login Page Testing
+Selenium Python Automation for Login Page Testing
 
 This project demonstrates UI test automation for a sample login page using Selenium WebDriver with Python. The test automates the process of entering correct and incorrect credentials into a login form on the website:
 
