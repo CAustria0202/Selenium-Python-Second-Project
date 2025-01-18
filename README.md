@@ -10,6 +10,16 @@ What It Does:
 * Tests both valid and invalid login attempts.
 * Confirms successful login or failure by checking the page content.
 
+Technologies Used:
+* Python: The programming language for writing tests.
+* Selenium WebDriver: Used for automating browser interactions.
+* pytest: A testing framework for running the tests.
+* webdriver-manager: Manages the WebDriver binary.
+
+Test Flow:
+1. Correct Credentials: The test enters a valid username and password combination and verifies successful login.
+2. Incorrect Credentials: The test enters an invalid username or password and checks for failure.
+
 # Requirements
 
 * Python 3.12.3
