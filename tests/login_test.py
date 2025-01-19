@@ -33,7 +33,7 @@ def test_login(driver, username, password):
     time.sleep(2)
 
     # Take a screenshot before clicking the login button
-    take_screenshot(driver, username, prefix="before_submit")
+    take_screenshot(driver, directory="results", filename_prefix="login_before_submit")
 
     login_page.click_login()
 
