@@ -1,8 +1,25 @@
 # Selenium-Python-Second-Project
 
-This repository provides the foundational setup for a UI testing project, built using Python, Selenium WebDriver, Pytest, and the Page Object Model (POM) design pattern.
+<h2>Selenium Python Automation for Login Page Testing</h2>
 
-Using https://trytestingthis.netlify.app/ for testing the functionalities of the website are displayed on this project.
+This project demonstrates UI test automation for a sample login page using Selenium WebDriver with Python. The test automates the process of entering correct and incorrect credentials into a login form on the website:
+
+https://trytestingthis.netlify.app/
+
+What It Does:
+* Automates the login process by inputting predefined credentials.
+* Tests both valid and invalid login attempts.
+* Confirms successful login or failure by checking the page content.
+
+Technologies Used:
+* Python: The programming language for writing tests.
+* Selenium WebDriver: Used for automating browser interactions.
+* pytest: A testing framework for running the tests.
+* webdriver-manager: Manages the WebDriver binary.
+
+Test Flow:
+1. Correct Credentials: The test enters a valid username and password combination and verifies successful login.
+2. Incorrect Credentials: The test enters an invalid username or password and checks for failure.
 
 # Requirements
 
